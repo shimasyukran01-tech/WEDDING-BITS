@@ -1,1 +1,131 @@
+/* Gaya Umum */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
 
+.card-container {
+    width: 100%;
+    max-width: 600px;
+    background: url('1000171492.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    position: relative;
+    color: #000;
+    text-align: center;
+    min-height: 850px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Teks */
+.header h1, .header h2 {
+    margin: 0;
+    font-family: "Rough Rough", sans-serif; /* Ganti dengan fon yang sesuai jika ada */
+}
+
+.walimatul-urus {
+    font-size: 2.5em;
+    margin-top: 50px;
+}
+
+.majlis-bertaut-kaseh {
+    font-size: 3.5em;
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+.salam, .invitation-text, .invitation-to, .prayer {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+.names {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.name-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-family: "Rough Rough", sans-serif; /* Ganti dengan fon yang sesuai */
+    font-weight: bold;
+}
+
+.groom-name, .bride-name {
+    font-size: 2em;
+    flex: 1;
+    text-align: center;
+}
+
+.vs-text {
+    font-size: 1.5em;
+    margin: 0 10px;
+    font-family: Arial, sans-serif;
+}
+
+.info-section {
+    margin-top: 30px;
+}
+
+.date-time {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.location-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.location-icon {
+    font-size: 1.5em;
+    margin-right: 5px;
+}
+
+.address-text {
+    text-align: center;
+}
+
+.prayer {
+    font-style: italic;
+    margin-top: 30px;
+    font-size: 0.9em;
+}
+
+/* Butang Footer */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.button {
+    text-decoration: none;
+    color: #fff;
+    background-color: #38180d; /* Coklat gelap */
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Audio Player */
+audio {
+    margin-top: 20px;
+    width: 100%;
+}
